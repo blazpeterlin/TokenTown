@@ -1,0 +1,26 @@
+{
+  "defaultPermissionMode": "allow-all",
+  "sandbox": {
+    "enabled": true,
+    "sandboxMcpServers": false,
+    "sandboxLspServers": false,
+    "allowBypass": false,
+    "auth": {
+      "git": false,
+      "gh": false
+    },
+    "allowDevToolAccess": true,
+    "addCurrentWorkingDirectory": true,
+    "userPolicy": {
+      "filesystem": {
+        "readwritePaths": ["D:\\GeniRepos", "%USERPROFILE%\\.copilot\\session-state"],
+        "readonlyPaths": ["C:\\", "D:\\"],
+        "deniedPaths": []
+      },
+      "network": {
+        "allowOutbound": true,
+        "allowLocalNetwork": false
+      }
+    }
+  }
+}

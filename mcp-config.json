@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "azure-devops": {
+      "tools": [
+        "core_list_projects",
+        "core_list_project_teams",
+        "core_get_identity_ids",
+        "repo_repository",
+        "repo_branch",
+        "repo_file",
+        "repo_search_commits",
+        "search_code",
+        "repo_pull_request",
+        "repo_pull_request_thread",
+        "pipelines_definition",
+        "pipelines_build",
+        "pipelines_build_log",
+        "pipelines_run",
+        "pipelines_artifact"
+      ],
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@azure-devops/mcp", "GeniDevOps"]
+    }
+  }
+}
