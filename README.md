@@ -12,7 +12,7 @@ Windows, PowerShell 7, Node.js (`npx`), Copilot CLI (signed in, closed during se
 pwsh -ExecutionPolicy Bypass -File .\Setup.ps1
 ```
 
-Then restart Copilot CLI and run `/mcp` to sign in.
+Then restart Copilot CLI and make sure you made a /login .
 
 Options: `-TargetDirectory`, `-WorkspaceRoot`, `-ReadOnlyRoots`.
 
