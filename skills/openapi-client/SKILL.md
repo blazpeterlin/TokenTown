@@ -1,6 +1,6 @@
 ---
 name: openapi-client
-description: Create or update a C# API client from an OpenAPI/Swagger file or URL using NSwag. Use when adding an API integration, refreshing an API definition, or regenerating an existing client. Keywords: REST, OpenAPI, Swagger, API, NSwag
+description: "Create or update a C# API client from an OpenAPI/Swagger file or URL using NSwag. Use when adding an API integration, refreshing an API definition, or regenerating an existing client. Keywords: REST, OpenAPI, Swagger, API, NSwag"
 ---
 
 # OpenAPI C# clients
